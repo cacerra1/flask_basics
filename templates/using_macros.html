@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% import 'macros.html' as my_macros %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Using thr jinja macro- This is what calls it</title>
+</head>
+
+    <h2> Calling a macro </h2>
+<body>
+            {{ my_macros.render_dict(movies) }}
+</body>
+</html>
